@@ -3,6 +3,8 @@ import theme from "../lib/theme/theme";
 
 import Head from "next/head";
 
+const color = theme.colors.background;
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -24,7 +26,7 @@ function MyApp({ Component, pageProps }) {
           key="safari_icon"
           rel="mask-icon"
           href="https://assets.hackclub.com/favicons/safari-pinned-tab.svg"
-          color={theme.colors.background}
+          color={color}
         />
         <link
           key="apple_icon"
